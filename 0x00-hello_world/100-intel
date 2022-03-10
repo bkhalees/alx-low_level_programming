@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc masm=intell $CFILE -S
+gcc -S $CFILE
