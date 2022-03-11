@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
- * main - prints exactly "and that piece of art is useful" - Dora Korpar,"
- *
- * Return: Always 0 (Success)
+ * main - entry point
+ * Return: 1 (Success)
  */
 int main(void)
 {
