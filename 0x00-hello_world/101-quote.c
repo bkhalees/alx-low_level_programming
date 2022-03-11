@@ -10,3 +10,4 @@ int main(void)
 
 		return (1);
 }
+gcc 101-quote.c
