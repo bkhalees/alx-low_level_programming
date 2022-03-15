@@ -1,4 +1,4 @@
-#include "main.h"
+#include <main.h>
 /**
  * main - main block
  * Description: Print a word using _putchar
