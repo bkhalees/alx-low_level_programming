@@ -1,17 +1,18 @@
-#include <main.h>
+#include "main.h"
 /**
- * main - main block
+ * main - Entry block
  * Description: Print a word using _putchar
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char a[8] = "_putchar";
+	char c[8] = "_putchar";
+
 	int i = 0;
 
 	while (i < 8)
 	{
-		_putchar(a[i]);
+		_putchar(c[i]);
 		i++;
 	}
 
