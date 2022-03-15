@@ -1,4 +1,4 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef main.h
+#define main.h
 
 char _putchar(char c);
