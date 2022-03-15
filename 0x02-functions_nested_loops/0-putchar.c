@@ -2,7 +2,7 @@
 /**
  * main - main block
  * Description: Print a word using _putchar
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
