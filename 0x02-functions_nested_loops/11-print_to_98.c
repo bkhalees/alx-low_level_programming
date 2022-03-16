@@ -25,5 +25,6 @@ void print_to_98(int a)
 
 	printf("98");
 	putchar('\n');
+	putchar(':');
 
 }
