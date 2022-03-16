@@ -18,10 +18,18 @@ void times_table(void)
 			if (b != 0)
 			{
 				if (c <= 9)
+
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
+					_putchar(c % 10 + '0');
+				}
+				else
+				{
+					_putchar(' ');
+					_putchar('-');
+					_putchar(c / 10 + '0');
 					_putchar(c % 10 + '0');
 				}
 			}
@@ -29,10 +37,15 @@ void times_table(void)
 			{
 				if (c < 9)
 				{
+					_putchar(c + '0');
+				}
+				else
+				{
 					_putchar(c / 10 + '0');
 					_putchar(c % 10 + '0');
 				}
 			}
 		}
+		_putchar('\n');
 	}
 }
