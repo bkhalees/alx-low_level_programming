@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	long int fibonacci[50], sum = 2;
 
-	fibonacci[o] = 1;
+	fibonacci[0] = 1;
 	fibonacci[1] = 2;
 
 	for (i = 2; i < 50; i++)
