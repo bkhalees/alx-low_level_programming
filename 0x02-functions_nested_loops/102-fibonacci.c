@@ -14,15 +14,15 @@ int main(void)
 	for (count = 0; count < 50; count++)
 	{
 		sum = f1 + f2;
-		printf("%lu", sum);
+		printf('%lu', sum);
 
-		fi = f2;
+		f1 = f2;
 		f2 = sum;
 
 		if (count == 49)
-			printf("\n');
+			printf('\n');
 		else
-			printf(", ");
+			printf(' , ');
 	}
 
 	return (0);
