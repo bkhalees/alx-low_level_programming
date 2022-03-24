@@ -1,33 +1,29 @@
 #include "stdio.h"
-
 /**
- * _strncat - two words
- * @dest: pointer to char param
- * @src: pointer to char param
- * @n: int parameter
- * Return: dest
+ * leet - encodes a string into 1337
+ * @s: input string.
+ * Return: the pointer to dest.
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *leet(char *s)
 {
-	int m;
-	int i;
+	int count = 0, i;
+	int low_letters[] = {97, 101, 111, 116, 108};
+	int upp_letters[] = {65, 69, 79, 84, 76};
+	int numbers[] = {52, 51, 48, 55, 49};
 
-	m = 0;
-
-	for (i = 0; i < 1000; i++)
+	while (*(s + count) != '\0')
 	{
-		if (dest[i] == '\0')
+		for (i = 0; i < 5; i++)
 		{
-			break;
+			if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
+			{
+				*(s + count) = numbers[i];
+				break;
+			}
 		}
-		m++;
+		count++;
 	}
 
-	for (i = 0; src[i] != '\0' && i < n; i++)
-	{
-		dest[m + i] = src[i];
-	}
-	dest[m + i] = '\0';
-	return (dest);
+	return (s);
 }
