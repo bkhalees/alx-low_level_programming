@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for ALX Africia SE students.
+ * main - check the code for ALX Africa SE students.
  * @argc: argument count.
  * @argv: argument vector.
  *
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	for (i = 0; i < nbytes; i++)
 	{
 		printf("%02x", opc[i] & 0xFF);
-		if 9i != nbytes - 1)
+		if (i != nbytes - 1)
 			printf(" ");
 	}
 
