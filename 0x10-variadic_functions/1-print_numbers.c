@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
- * print_numbers - Entry point
+ * print_numbers - Entry Point
  * @separator: comma space
  * @n: elements to be printed
  * Return: void
